@@ -48,6 +48,7 @@ def check_update(slack_id: str) -> None:
                             {"text": text},
                         ),
                     )
+                    print("Posted!")
 
 
 def main():
